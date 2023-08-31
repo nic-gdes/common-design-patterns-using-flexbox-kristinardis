@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightblue;
+    height: 450px;
+    gap: 2%;
+    padding: 25px;
+}
+
+h1 {
+    
+    text-align: center;
+    color: red;
+
+}
+.item{
+    background-color: darkblue;
+    width: 45vw;
+    height: 100px;
+    display: flex;
+
+
+}
+
+.item:nth-child(3n)
+ {
+    background-color: blueviolet;
+    width: 92vw;
+}
+
+

@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightblue;
+    height: 700px;
+    gap: 2%;
+    padding: 25px;
+}
+
+h1 {   
+    text-align: center;
+    color: red;
+}
+.item{
+    background-color: darkblue;
+    width: 30vw;
+    height: 200px;
+    display: flex;
+
+
+
+
