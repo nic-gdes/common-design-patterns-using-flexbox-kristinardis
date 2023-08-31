@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightblue;
+    height: 700px;
+    gap: 2%;
+    padding: 25px;
+}
+
+.row{
+    display: flex;
+    gap: 2em}
+</style>
+</head>
+<body>
+
+<h2>Stretch All</h2>
+
+<div class="row">
+  <div class="column" style="background-color:rgb(232, 15, 15);">
+  </div>
+  <div class="column" style="background-color:rgb(71, 14, 228);">
+  </div>
+  <div class="column" style="background-color:rgb(24, 234, 31);">
+  </div>
+  <div class="column" style="background-color:rgb(224, 174, 26);">
+  </div>
+</div>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  
+  width: 25%;
+  padding: 10px;
+  height: 300px;
+  gap:1em; 
+}
+.column2 {
+  float:middle;
+  width: 50%;
+  padding: 10 px;
+  height: 300 px;
+  gap: 1em;    
+}
+</style>
+</head>
+<body>
+<h2>Stretch Middle</h2>
+
+<div class="row">
+  <div class="column" style="background-color:red">
+  </div>
+  <div class="column2" style="background-color:blueviolet">
+  </div>
+  <div class="column" style="background-color:greenyellow">
+  </div>
+  </div>
+</div>
+
+</body>
+</html>
+
